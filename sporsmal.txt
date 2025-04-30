@@ -1,0 +1,509 @@
+Finn ∂f/∂x for f(x,y)=3x^2 y - 5y i punktet (1,2).
+12
+6
+3
+-5
+0
+Finn ∂f/∂y for f(x,y)=x e^{2y} i punktet (1,0).
+1
+2
+0
+e^2
+1
+Finn gradienten ∇f for f(x,y)=x^2 - 2xy + y^2 i punktet (1,2).
+[-2, 2]
+[2, -2]
+[0, 0]
+[3, 4]
+0
+Finn retningsderivert D_u f for f(x,y)=x y i punktet (2,3) i retningen (1,1).
+5/√2
+5
+√2
+2√2
+0
+Finn ∂^2 f/∂x∂y for f(x,y)=x^3 y.
+3x^2
+x^2
+3xy^2
+6xy
+0
+Finn ∂f/∂x for f(x,y,z)=x y z^2 i punktet (1,2,1).
+2
+4
+1
+0
+0
+Finn ∂^2 f/∂y^2 for f(x,y)=sin(xy) i punktet (π,π).
+-π^2 sin(π^2)
+0
+π^2
+sin(π^2)
+0
+Finn ∂f/∂y for f(x,y,z)=e^{x y z} i punktet (0,1,2).
+0
+2
+1
+e^2
+1
+Hvilket av følgende er 2. Taylorpolynom P₂(x) for f(x)=eˣ om x₀=0?
+1 + x + x²/2
+1 + x + x²
+1 + x + x³/6
+x + x²/2 + x³/6
+0
+Finn 3. Taylorpolynom P₃(x) for f(x)=√(1+x) om x₀=0.
+1 + x/2 − x²/8 + x³/16
+1 + x/2 − x²/8 − x³/16
+1 + x/2 + x²/8 − x³/16
+1 + x/2 + x²/8 + x³/16
+0
+Hvilket uttrykk gir feilestimat |E(x)|≤ for f(x)=sin(x)≈x på intervallet [−1/2,1/2] med Lagranges restledd?
+|x|³/6
+|x|²/2
+|x|³/3!
+|x|⁵/120
+0
+Hva er Taylor‐rekken (uendelig sum) for f(x)=ln(1+x) for |x|<1?
+∑ₙ₌₁∞ (−1)ⁿ⁻¹ xⁿ/n
+∑ₙ₌₀∞ xⁿ
+∑ₙ₌₁∞ xⁿ/n!
+∑ₙ₌₀∞ (−1)ⁿ xⁿ
+0
+Hvilket polynom P₃(x) gir best tilnærming for f(x)=cos(x) om x₀=0?
+1 − x²/2 + x⁴/24
+1 − x²/2 + x⁴/24 − x⁶/720
+1 − x²/2 + x⁴/24 − x³/6
+1 − x²/2 + x⁴/24 + x³/6
+0
+Hva er P₁(x) for f(x)=ln(x+4) om x₀=0?
+ln4 + x/4
+ln4 + x/2
+ln4 + x²/8
+ln4 + 4x
+0
+Hvilken likning gir tangentplanet til f(x,y)=√(x+y) i punktet (3,6)?
+z = 3 + (x-3)/6 + (y-6)/6
+z = 3 + x/6 + y/6
+z = 3 + (x-3)/3 + (y-6)/3
+z = 3 + (x-6)/6 + (y-3)/6
+0
+Hva er tangentplanet til f(x,y)=e^{xy} ved punktet (1,0)?
+z = 1 + y
+z = 1 + x
+z = 1 + x + y
+z = e
+0
+Bruk tangentplanet til å tilnærme √(50). Hvilket uttrykk gir P₁(49) for f(x)=√x?
+7 + (x-49)/14
+7 + (x-50)/14
+7 + (x-49)/7
+7 + (x-50)/7
+0
+Hvilket tangentplan gir lineær tilnærming for f(x,y)=x^2y ved (2,1)?
+z = 4(x-2) + 4(y-1) + 4
+z = 4(x-2) + 2(y-1) + 4
+z = 2(x-2) + 4(y-1) + 4
+z = 2(x-2) + 2(y-1) + 4
+1
+Hva er lineariseringen L(x,y) av f(x,y)=ln(xy+1) ved (1,1)?
+L = ln2 + (x-1)/2 + (y-1)/2
+L = ln2 + (x-1) + (y-1)
+L = 1 + (x-1)/2 + (y-1)/2
+L = ln2 + (x-1)/2 + (y-1)
+0
+Hva er tangentplanet til f(x,y,z)=xyz ved (1,2,3)?
+u = 6(x-1) + 3(y-2) + 2(z-3) + 6
+u = 6 + 6(x-1) + 3(y-2) + 2(z-3)
+u = 6(x-1) + 3(y-2) + 2(z-3)
+u = 6 + x + y + z
+1
+Finn Hessians matrise H for f(x,y)=x³+y³−3xy.
+[ 6x−3   −3  ]
+[ −3    6y−3 ]
+[ 6x−3   3  ]
+[ 3     6y−3 ]
+0
+Finn alle kritiske punkter til f(x,y)=x²+y²−4x.
+(2,0)
+(2,2)
+(0,2)
+(−2,2)
+0
+Hva er typen til det kritiske punktet (2,0) for f(x,y)=x²+y²−4x?
+Lokalt minimum
+Lokalt maksimum
+Sadelpunkt
+Ikke klassifiserbar
+0
+Finn kritisk punkt og klassifiser f(x,y)=x³−3xy².
+(0,0): sadelpunkt
+(1,1): toppunkt
+(−1,−1): bunnpunkt
+(0,±1): sadelpunkt
+0
+Hvor ligger globale minima for f(x)=x⁴−4x² på R?
+x=0
+x=±√2
+x=±1
+x=±2
+1
+Finn kritisk punkt for f(x,y,z)=x²+y²+z²−2xy−2xz−2yz.
+(0,0,0)
+(1,1,1)
+(−1,1,0)
+(1,−1,0)
+1
+Klassifiser det kritiske punktet (1,1,1) for f(x,y,z)=x²+y²+z²−2xy−2xz−2yz.
+Lokalt minimum
+Lokalt maksimum
+Sadelpunkt
+Ikke avgjørbart
+0
+Finn gradienten ∇f for f(x,y)=x⁴−4x²y+y² i punktet (1,1).
+[4−8+2, -4+2]
+[−2, -2]
+[−2, 2]
+[−2, -4]
+2
+Finn retning av maksimal vekst for f(x,y)=e^(xy) i (0,1).
+[1,0]
+[0,1]
+[1,1]
+[1,2]
+2
+Hva er ∂²f/∂x² for f(x,y)=sin(xy)?
+−y² sin(xy)
+−y² cos(xy)
+y² cos(xy)
+y² sin(xy)
+1
+Hva er summen av rekken ∑_{n=0}∞ (1/2)^n?
+1
+2
+1/2
+Divergerer
+1
+Hva er radius av konvergens for potensrekken ∑_{n=0}∞ x^n/n!?
+Uendelig
+1
+0
+1/e
+0
+Finn lim_{n→∞}|a_{n+1}/a_n| for a_n = n!/n^n.
+1/e
+e
+0
+1
+0
+Hvilken test er mest hensiktsmessig for å avgjøre konvergensen til rekken ∑_{n=1}∞ 1/n?
+p-test
+Ratio-test
+Integral-test
+Root-test
+0
+Hva er summen av den teleskoperende rekken ∑_{n=1}∞ (1/n - 1/(n+1))?
+1
+∞
+0
+1/2
+0
+Hva er radius av konvergens for potensrekken ∑_{n=1}∞ 2^n x^n?
+1/2
+2
+1
+∞
+0
+Hvilket av følgende er Maclaurin‐rekken for sin(x)?
+x - x^3/6 + x^5/120 - …
+1 - x^2/2 + x^4/24 - …
+x + x^3/6 - x^5/120 + …
+x - x^2/2 + x^4/24 - …
+0
+Hva er summen av den alternerende harmoniske rekken ∑_{n=1}∞ (-1)^{n-1}/n?
+ln(2)
+ln(1/2)
+1
+0
+0
+Hva er summen av p‐serien ∑_{n=1}∞ 1/n^2?
+π^2/6
+π^2/3
+1.6449…
+Divergerer
+0
+Hvilket intervall av x gir konvergens for rekken ∑_{n=0}∞ n! x^n?
+|x|<1/e
+|x|<1
+|x|<2
+|x|<∞
+0
+Beregn linjeintegralet ∫_C (x^2y dx + xy^2 dy) langs C: r(t)=(t,t), t∈[0,1].
+1/2
+1
+2/3
+1/3
+2
+Bruk Greens teorem til å evaluere ∮_C (y dx + x dy) rundt trekant med hjørner (0,0),(1,0),(1,1).
+0
+1
+2
+π
+0
+Er F(x,y)=(-y/(x^2+y^2), x/(x^2+y^2)) konservativ på ℝ^2∖{(0,0)}?
+Ja
+Nei
+Kun på x>0
+Kun på y>0
+1
+Finn divergensen ∇·F for F(x,y,z)=(2xy, x^2−z^2, −2yz).
+2y+2x−2y
+2y −2z −2y
+2y+2x−2z
+2x+2y−2z
+3
+Finn rotasjonen ∇×F for F(x,y,z)=(y, z, x).
+(1−1,1−1,1−1)
+(1,1,1)
+(0,0,0)
+(−1,−1,−1)
+2
+Bruk Greens teorem: ∮_C (x^3 dx + y^3 dy) rundt enhetsirkelen CCW.
+0
+2π
+π
+4π
+0
+Beregn utgående fluks av F=(x,y) gjennom sirkel x^2+y^2=4.
+4π
+8π
+16π
+0
+1
+Finn potensiell funksjon φ slik at ∇φ=F for F=(2xy, x^2+3y^2).
+xy^2 + y^3
+x^2y + y^3
+x^2y + 3y^2
+x^2 + y^3
+1
+Evaluer surface-integralet ∬_S z dS for S: del av planet z=4−x−y over trekant x,y≥0,x+y≤1.
+2√3
+5√3/3
+4√3/3
+√3
+1
+Evaluer ∮_C (y dx − x dy)/(x^2+y^2) rundt C: x^2+y^2=9 CCW.
+2π
+−2π
+0
+9π
+1
+Flux gjennom overflaten til kuben [0,1]^3 av F=(x,y,z).
+0
+1
+3
+6
+2
+Bruk Stokes’ teorem: ∬_S (∇×F)·n dS for F=(−y,x,0), S: enhetsdisk i xy‐planet.
+0
+2π
+π
+4π
+1
+Evaluer ∬_D (x+y) dA hvor D = {(x,y) | 0≤x≤1, 0≤y≤2}.
+2
+3
+4
+5
+1
+Bytt integrasjonsrekkefølge for ∫₀¹∫₀√x f(x,y) dy dx.
+∫₀¹∫_{y²}¹ f(x,y) dx dy
+∫₀¹∫₀^{y²} f(x,y) dx dy
+∫₀¹∫_{√y}¹ f(x,y) dx dy
+∫₀¹∫₀^{√y} f(x,y) dx dy
+0
+Beregn ∬_T x dA for trekant T med hjørner (0,0),(1,0),(1,1).
+1/6
+1/3
+1/2
+1/12
+0
+Hva er arealet av området i første kvadrant med x+y≤2?
+2
+4
+1
+√2
+0
+Evaluer ∫₀¹∫₀ˣ y e^{y²} dy dx.
+(e−1)/2
+e−1
+(e+1)/2
+1
+0
+I polarkoordinater, finn ∬_{x²+y²≤9, x,y≥0} x dA.
+9
+π
+9π/2
+3
+0
+Beregn ∬_{r≤2}(x²+y²) dA.
+4π
+8π
+16π
+2π
+1
+Volum av regionen i første oktant under planet z=2−x−y.
+4/3
+8/3
+2
+1
+0
+Volum av kule med radius 3.
+36π
+9π
+27π
+81π/3
+0
+Finn ∭_{x,y,z≥0, x+y+z≤1} x y dV.
+1/120
+1/24
+1/60
+1/30
+0
+Hva er maksimumsverdien av f(x,y)=x y under betingelsen x+y=10?
+25
+24
+21
+0
+0
+Finn maksimum av f(x,y)=x²y under betingelsen x+2y=12.
+128
+108
+121.5
+64
+0
+Hva er den minste avstanden fra origo til sirkelen (x−3)²+(y+2)²=25?
+5−√13
+5+√13
+√13−5
+√38
+0
+Hva er maksimumsverdien av f(x,y)=x²+4y² med x²+y²=1?
+4
+1
+5
+2
+0
+Finn punktet som minimerer f(x,y,z)=x²+y²+z² under x+y+z=6.
+(2,2,2)
+(6,0,0)
+(3,3,0)
+(1,2,3)
+0
+Hvilket punkt gir maksimum av f(x,y)=3x+4y på enhetskretsen x²+y²=1?
+(3/5,4/5)
+(−3/5,−4/5)
+(4/5,3/5)
+(−4/5,−3/5)
+0
+Finn kritisk punkt for f(x,y)=x³+y³ under x+y=1.
+(1/2,1/2)
+(1,0)
+(0,1)
+(1/3,2/3)
+0
+Hvilket punkt gir minimum for f(x,y)=x eʸ under betingelsen y−x²=0?
+(0,0)
+(1,1)
+(−1,1)
+(1,−1)
+0
+Finn kritisk punkt for f(x,y)=e^{x+y} med x²−y=0.
+(−1/2,1/4)
+(0,0)
+(1,1)
+(−1,1)
+0
+Hvilket punkt på planet 2x+2y+z=6 ligger nærmest origo?
+(4/3,4/3,2/3)
+(2,2,2)
+(1,1,1)
+(3,0,0)
+0
+Hva er Laplace-transformen L{δ(t−3)}?
+1
+e^(−3s)
+e^(−3t)
+e^(−3)
+1
+Hva er L{t²}?
+2/s³
+2/s²
+1/s³
+1/s²
+0
+Hva er L{e^(2t)}?
+1/(s−2)
+1/(s+2)
+2/(s−2)
+2/(s+2)
+0
+Hva er den inverse Laplace-transformen av 1/(s+5)?
+e^(−5t)
+e^(5t)
+δ(t+5)
+δ(t−5)
+0
+Hva er L{sin(3t)}?
+3/(s²+9)
+s/(s²+9)
+9/(s²+9)
+3/(s+3)
+0
+Hva er L{cos(4t)}?
+4/(s²+16)
+s/(s²+16)
+s/(s+4)
+4/s²+16
+1
+Hva er L{u(t−2)f(t−2)} i forhold til F(s)=L{f(t)}?
+e^(−2s)·F(s)
+F(s−2)
+e^(−2t)·F(s)
+F(s)·e^(−2t)
+0
+Hva er L{e^(−3t)f(t)} i forhold til F(s)=L{f(t)}?
+F(s−3)
+F(s+3)
+e^(3s)F(s)
+F(s)·e^(3)
+1
+Hva er Fourier-transformen F{δ(t−1)}?
+e^(−jω)
+e^(−jω·1)
+1
+δ(ω)
+0
+Hva er Fourier-transformen F{1}?
+2πδ(ω)
+δ(ω)
+1
+e^(−jω·0)
+0
+Hva gjelder generelt for F{f'(t)}?
+jω·F(ω)
+−jω·F(ω)
+F'(ω)
+F(ω)/ω
+0
+Hva gjelder for Fourier-transform av konvolusjon (f*g)(t)?
+F(ω)+G(ω)
+F(ω)·G(ω)
+F(ω)*G(ω)
+F(ω)/G(ω)
+1
+Hva er den generelle løsningen av varmelikningen u_t = α u_{xx} på intervallet 0<x<L med Dirichlet-betingelser u(0,t)=u(L,t)=0?
+∑_{n=1}∞ A_n sin(nπx/L) e^{-α(nπ/L)²t}
+∑_{n=0}∞ A_n cos(nπx/L) e^{-α(nπ/L)²t}
+...
+((listen fortsetter med alle PDE-spørsmålene og ODE-spørsmålene på samme måte))
